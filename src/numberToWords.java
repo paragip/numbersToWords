@@ -7,7 +7,7 @@ public class numberToWords {
 
     public static void numberToWords (int number) {
 
-        int numberReversed = 0;
+        int numberReversed = 0; // ezt felesleges 0-val indítani de mindegy, nem számít
         int numberOfDigitsOriginal = getDigitCount(number);
         int numberOfDigitsReversed = 0; // alább számítjuk ki
 
